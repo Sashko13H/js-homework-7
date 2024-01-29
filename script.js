@@ -20,10 +20,10 @@ function Calculator() {
     this.mul = function () {
       return this.one * this.two;
     };
-  }
+}
   
-  let calculator = new Calculator();
-  calculator.read();
+let calculator = new Calculator();
+calculator.read();
   
-  console.log("Сума = " + calculator.sum());
-  console.log("Добуток = " + calculator.mul());
+console.log("Сума = " + calculator.sum());
+console.log("Добуток = " + calculator.mul());
